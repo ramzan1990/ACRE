@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ACRE_dep">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/ACRE_dep.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
