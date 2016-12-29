@@ -1,6 +1,7 @@
 package sbml;
 
 import ACR.ACRAnalyzer;
+import ACR.ACRDecider;
 import ACR.Graph;
 import ACR.Species;
 import java.io.PrintStream;
@@ -30,7 +31,6 @@ public class NetEnum
     private String[] Assignments;
     private String[] singletonAssignments;
     private int enums = 0;
-    private int printedNetworks = 0;
     private int ACRcount = 0;
     public StringBuffer report = new StringBuffer();
 
@@ -234,107 +234,8 @@ public class NetEnum
         localNetworkFromGraph.connectAll((String[])this.inputs.toArray(new String[0]), this.Assignments);
         localNetworkFromGraph.connectAll((String[])this.singletons.toArray(new String[0]), this.singletonAssignments);
         localNetworkFromGraph.removeRedundant();
-        CSVNetwork localCSVNetwork = new CSVNetwork(localNetworkFromGraph);
-        String str = localCSVNetwork.getCSV();
-        boolean bool = false;
-        Graph localGraph = null;
-        try
-        {
-            localGraph = ACRAnalyzer.analyze(str);
-        }
-        catch (Exception localException1)
-        {
-            System.out.println(localException1.getMessage());
-        }
-        Object localObject1;
-        Object localObject2;
-        if (this.f.restrictACR.isSelected())
-        {
-            bool = false;
-            localObject1 = (String)this.f.speciesDropDown.getSelectedItem();
-            for (localObject2 = localGraph.specieswithACR.iterator(); ((Iterator)localObject2).hasNext();)
-            {
-                Species localSpecies1 = (Species)((Iterator)localObject2).next();
-                if (localSpecies1.toString().equals(localObject1)) {
-                    bool = true;
-                }
-                if ((localNetworkFromGraph.SpeciesMapping.containsKey(localSpecies1.toString())) && (((String)localNetworkFromGraph.SpeciesMapping.get(localSpecies1.toString())).equals(localObject1))) {
-                    bool = true;
-                }
-            }
-        }
-        else
-        {
-            bool = localGraph.isACR();
-        }
-        if (bool)
-        {
-            this.ACRcount += 1;
-            if (this.f.saveSBML.isSelected())
-            {
-                localObject1 = localNetworkFromGraph.toSBML();
-                localObject2 = new SBMLWriter();
-                try
-                {
-                    ((SBMLWriter)localObject2).write((SBMLDocument)localObject1, String.valueOf(this.f.SBMLfolder.getText()) + "Network" + this.ACRcount + ".xml");
-                }
-                catch (Exception localException2)
-                {
-                    JOptionPane.showMessageDialog(null, localException2.getMessage(), "Error", 0);
-                }
-            }
-        }
-        if (((bool) && (this.f.EnumertaionswithACR.isSelected())) || ((!bool) && (this.f.EnumerationswithoutACR.isSelected())))
-        {
-            this.printedNetworks += 1;
-            this.report.append("Network " + this.printedNetworks + ":\n");
-            int i = 0;
-            while (i < this.singletonAssignments.length)
-            {
-                this.report.append(String.valueOf(this.singletons.get(i)) + ": " + this.singletonAssignments[i] + ", ");
-                i++;
-            }
-            i = 0;
-            while (i < this.Assignments.length)
-            {
-                this.report.append(String.valueOf(this.inputs.get(i)) + ": " + this.Assignments[i] + ", ");
-                i++;
-            }
-            this.report.append("\n");
-            if ((bool) && (this.f.EnumertaionswithACR.isSelected()))
-            {
-                if (this.f.ACRNetworks.isSelected()) {
-                    this.report.append(localNetworkFromGraph.toString());
-                }
-                if (this.f.ACRspecies.isSelected())
-                {
-                    this.report.append("Has ACR in the following species:\n");
-                    i = 1;
-                    for (localObject2 = localGraph.specieswithACR.iterator(); ((Iterator)localObject2).hasNext();)
-                    {
-                        Species localSpecies2 = (Species)((Iterator)localObject2).next();
-                        this.report.append("" + i + ":  ");
-                        if (localNetworkFromGraph.SpeciesMapping.containsKey(localSpecies2.toString())) {
-                            this.report.append(String.valueOf(localNetworkFromGraph.SpeciesMapping.get(localSpecies2.toString())) + ", replaced by ");
-                        }
-                        this.report.append(localSpecies2 + "\n");
-                        i++;
-                    }
-                }
-                else
-                {
-                    this.report.append("Has ACR\n");
-                }
-            }
-            if ((!bool) && (this.f.EnumerationswithoutACR.isSelected())) {
-                if (localGraph.dontHaveACR()) {
-                    this.report.append("Doesn't have ACR\n");
-                } else {
-                    this.report.append("Can't tell\n");
-                }
-            }
-            this.report.append("------------------------\n");
-        }
+        ACRcount += ACRDecider.decide(localNetworkFromGraph, report, f, this.inputs, this.Assignments, this.singletons, this.singletonAssignments);
+
     }
 }
 
