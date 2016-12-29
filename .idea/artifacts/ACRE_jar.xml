@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="ACRE:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ACRE_jar</output-path>
+    <root id="archive" name="ACRE.jar">
+      <element id="module-output" name="ACRE" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/ACRE_dep.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
