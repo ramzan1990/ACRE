@@ -1,0 +1,292 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.23)  23 NOV 2016 10:12
+entering extended mode
+**./UserManual_ACRE.tex
+(UserManual_ACRE.tex
+LaTeX2e <2016/03/31> patch level 1
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2016/06/02 v1.0s Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2016/06/17 v0.06h Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(C:\Users\Umarov\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count89
+)
+(C:\Users\Umarov\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box26
+\beforetitleunit=\skip43
+\aftertitleunit=\skip44
+\ttl@plus=\dimen105
+\ttl@minus=\dimen106
+\ttl@toksa=\toks15
+\titlewidth=\dimen107
+\titlewidthlast=\dimen108
+\titlewidthfirst=\dimen109
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (UserManual_ACRE.aux)
+\openout1 = `UserManual_ACRE.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+
+(C:\Users\Umarov\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count90
+\scratchdimen=\dimen110
+\scratchbox=\box27
+\nofMPsegments=\count91
+\nofMParguments=\count92
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count93
+\MPscratchDim=\dimen111
+\MPnumerator=\count94
+\makeMPintoPDFobject=\count95
+\everyMPtoPDFconversion=\toks18
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+Underfull \hbox (badness 2600) in paragraph at lines 38--38
+\OT1/cmr/m/it/12 Ab-so-lute Con-cen-tra-tion Ro-bust-ness Ex-plo-ration
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+
+ []
+
+[1
+
+{C:/Users/Umarov/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (UserManual_ACRE.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 2.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+\tf@toc=\write3
+\openout3 = `UserManual_ACRE.toc'.
+
+ [2
+
+]
+Chapter 1.
+[3
+
+]
+Chapter 2.
+[4
+
+] <./figs/1.png, id=20, 1159.33125pt x 124.96687pt>
+File: ./figs/1.png Graphic file (type png)
+ <use ./figs/1.png>
+Package pdftex.def Info: ./figs/1.png used on input line 119.
+(pdftex.def)             Requested size: 276.00105pt x 29.75049pt.
+ [5 <./figs/1.png>]
+Chapter 3.
+
+Overfull \hbox (1.9606pt too wide) in paragraph at lines 124--124
+|\OT1/cmr/bx/n/24.88 USER IN-TER-FACE GUIDE| 
+ []
+
+<./figs/2.png, id=26, 693.34032pt x 326.72063pt>
+File: ./figs/2.png Graphic file (type png)
+ <use ./figs/2.png>
+Package pdftex.def Info: ./figs/2.png used on input line 132.
+(pdftex.def)             Requested size: 103.50105pt x 48.77165pt.
+ <./figs/3.png, id=27, 451.6875pt x 301.125pt>
+File: ./figs/3.png Graphic file (type png)
+
+<use ./figs/3.png>
+Package pdftex.def Info: ./figs/3.png used on input line 153.
+(pdftex.def)             Requested size: 207.0021pt x 138.00455pt.
+ <./figs/4.png, id=28, 331.99031pt x 456.20438pt>
+File: ./figs/4.png Graphic file (type png)
+ <use ./figs/4.png>
+Package pdftex.def Info: ./figs/4.png used on input line 181.
+(pdftex.def)             Requested size: 172.5pt x 237.03967pt.
+ [6
+
+ <./figs/2.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 195.
+
+<./figs/5.png, id=36, 451.6875pt x 301.125pt>
+File: ./figs/5.png Graphic file (type png)
+ <use ./figs/5.png>
+Package pdftex.def Info: ./figs/5.png used on input line 213.
+(pdftex.def)             Requested size: 207.0021pt x 138.00455pt.
+ [7 <./figs/3.png (PNG copy)>] [8 <./figs/4.png (PNG copy)> <./figs/5.png (PNG copy)>] <./figs/6.png, id=44, 451.6875pt 
+x 301.125pt>
+File: ./figs/6.png Graphic file (type png)
+ <use ./figs/6.png>
+Package pdftex.def Info: ./figs/6.png used on input line 239.
+(pdftex.def)             Requested size: 207.0021pt x 138.00455pt.
+
+<./figs/7.png, id=45, 662.475pt x 493.0922pt>
+File: ./figs/7.png Graphic file (type png)
+ <use ./figs/7.png>
+Package pdftex.def Info: ./figs/7.png used on input line 266.
+(pdftex.def)             Requested size: 327.74895pt x 243.94972pt.
+ [9 <./figs/6.png (PNG copy)>]
+<./figs/8.png, id=49, 201.75375pt x 97.86563pt>
+File: ./figs/8.png Graphic file (type png)
+ <use ./figs/8.png>
+Package pdftex.def Info: ./figs/8.png used on input line 285.
+(pdftex.def)             Requested size: 172.5pt x 83.67596pt.
+ [10 <./figs/7.png (PNG copy)>]
+<./figs/9.png, id=53, 219.06844pt x 426.09187pt>
+File: ./figs/9.png Graphic file (type png)
+ <use ./figs/9.png>
+Package pdftex.def Info: ./figs/9.png used on input line 308.
+(pdftex.def)             Requested size: 137.9979pt x 268.41328pt.
+ <./figs/10.png, id=54, 209.28188pt x 174.6525pt>
+File: ./figs/10.png Graphic file (type png)
+
+<use ./figs/10.png>
+Package pdftex.def Info: ./figs/10.png used on input line 329.
+(pdftex.def)             Requested size: 137.9979pt x 115.16173pt.
+ <./figs/11.png, id=55, 209.28188pt x 174.6525pt>
+File: ./figs/11.png Graphic file (type png)
+ <use ./figs/11.png>
+Package pdftex.def Info: ./figs/11.png used on input line 347.
+(pdftex.def)             Requested size: 137.9979pt x 115.16173pt.
+
+<./figs/12.png, id=56, 1195.46625pt x 645.91313pt>
+File: ./figs/12.png Graphic file (type png)
+ <use ./figs/12.png>
+Package pdftex.def Info: ./figs/12.png used on input line 359.
+(pdftex.def)             Requested size: 276.00105pt x 149.11867pt.
+ [11 <./figs/8.png (PNG copy)>] [12 <./figs/9.png (PNG copy)> <./figs/10.png>] (UserManual_ACRE.bbl) [13 <./figs/11.png>
+ <./figs/12.png>] (UserManual_ACRE.aux) ) 
+Here is how much of TeX's memory you used:
+ 2439 strings out of 493335
+ 32671 string characters out of 3136677
+ 95169 words of memory out of 3000000
+ 5937 multiletter control sequences out of 15000+200000
+ 8150 words of font info for 31 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 40i,7n,31p,803b,228s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
+symbols/msam10.pfb>
+Output written on UserManual_ACRE.pdf (13 pages, 477103 bytes).
+PDF statistics:
+ 97 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+
