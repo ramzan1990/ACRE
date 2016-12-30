@@ -13,7 +13,7 @@
        UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
      }
      catch (Exception localException1) {
-       System.out.println(localException1.getMessage());
+       //System.out.println(localException1.getMessage());
      }
      GraphFrame localGraphFrame = new GraphFrame(new NetworkGraph());
      try {
@@ -24,7 +24,7 @@
        localArrayList.add(new ImageIcon(NetworkEditor.class.getResource("img/ic128.png")).getImage());
        localGraphFrame.setIconImages(localArrayList);
      } catch (Exception localException2) {
-       System.out.println(localException2.getMessage());
+       //System.out.println(localException2.getMessage());
      }
      localGraphFrame.setVisible(true);
    }

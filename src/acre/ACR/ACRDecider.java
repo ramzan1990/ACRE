@@ -23,7 +23,7 @@ public class ACRDecider {
         try {
             localGraph = ACRAnalyzer.analyze(str);
         } catch (Exception localException1) {
-            System.out.println(localException1.getMessage());
+            //System.out.println(localException1.getMessage());
         }
         Object localObject1;
         Object localObject2;

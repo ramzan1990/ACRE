@@ -60,23 +60,6 @@ public class SBMLLoader {
         return reaction;
     }
 
-    public static void main(String[] args) throws Exception {
-        Model modelA = SBMLLoader.loadModelFromSBML("test7.xml");
-        Model modelB = SBMLLoader.loadModelFromSBML("test4.xml");
-        modelA.printModelReactions();
-        System.out.println("\n");
-        modelB.printModelReactions();
-        modelA.addInput("s1");
-        modelA.addOutput("s3");
-        modelB.addInput("S2");
-        modelB.addOutput("Y");
-        ModelManager manager = new ModelManager();
-        ModelNode node1 = manager.createNode(modelA);
-        ModelNode node2 = manager.createNode(modelB);
-        System.out.println("\n");
-        System.out.println("----------------------------");
-        manager.print();
-        System.out.println("********************");
-    }
+
 }
 

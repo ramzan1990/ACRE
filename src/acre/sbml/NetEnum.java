@@ -42,7 +42,7 @@ public class NetEnum
         else
         {
             long l = System.currentTimeMillis();
-            System.out.println("l a pc = "+this.Assignments.length);
+            //System.out.println("l a pc = "+this.Assignments.length);
             EnumerateRecursive(0);
             l = System.currentTimeMillis() - l;
             double d = l * 1.0D / 1000.0D;
@@ -95,7 +95,7 @@ public class NetEnum
             ModuleNode localModuleNode = (ModuleNode)localIterator1.next();
             for (String str : localModuleNode.modelNode.model.inputs)
             {
-                System.out.println(str);
+                //System.out.println(str);
                 this.inputs.add(String.valueOf(localModuleNode.modelNode.getIDWOM()) + "." + str);
                 this.Domains.put(String.valueOf(localModuleNode.modelNode.getIDWOM()) + "." + str, localModuleNode.modelNode.getConnections(str));
             }

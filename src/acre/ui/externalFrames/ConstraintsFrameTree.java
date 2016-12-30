@@ -361,12 +361,12 @@
      for (int k = 0; k < outputs.size(); k++) {
        length = ((String)outputs.get(k)).length();
        colSize = length * 10;
-       System.out.println(length);
+       //System.out.println(length);
        this.outputTable.getColumnModel().getColumn(k).setPreferredWidth(colSize);
        sizeCount += colSize;
      }
 
-     System.err.println(this.outputTable.getRowHeight(1));
+     //System.err.println(this.outputTable.getRowHeight(1));
 
      int height = inputs.size() * 16 + 19;
 

@@ -91,8 +91,8 @@
          this.products.add(species);
        }
 
-       System.err.println(this.reactants);
-       System.err.println(this.products);
+       //System.err.println(this.reactants);
+       //System.err.println(this.products);
      }
    }
 

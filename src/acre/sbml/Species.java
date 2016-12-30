@@ -56,28 +56,7 @@ Serializable {
         return index;
     }
 
-    public static void main(String[] args) {
-        Species s = new Species("1A");
-        Species s1 = new Species("2A");
-        Species s2 = new Species("2B");
-        Species s3 = new Species("C");
-        System.out.println(s.stochemitry);
-        System.out.println(s.symbol);
-        System.out.println(s1.stochemitry);
-        System.out.println(s1.symbol);
-        System.out.println(s2.stochemitry);
-        System.out.println(s2.symbol);
-        System.out.println(s3.stochemitry);
-        System.out.println(s3.symbol);
-        ArrayList<Species> list = new ArrayList<Species>();
-        list.add(s2);
-        list.add(s3);
-        list.add(s2);
-        list.add(s);
-        System.out.println(list);
-        Collections.sort(list);
-        System.out.println(list);
-    }
+
 
     public int hashCode() {
         int prime = 31;
